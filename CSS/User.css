@@ -1,0 +1,109 @@
+body{
+    height: 100px;
+  }
+  header{
+        background: rgb(178, 35, 124);
+      background: linear-gradient(
+      164deg,
+      rgba(178, 35, 124, 1) 10%,
+      rgba(130, 7, 84, 1) 52%,
+      rgba(115, 9, 75, 1) 95%
+    );
+    height: 70px;
+  }
+  .heading{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    padding-top: 17px;
+  }
+  .student{
+    position: relative;
+    
+    left:0%;
+   
+    
+  }
+  .student:hover{
+    opacity:0.8;
+  }
+  .student-img{
+    position: absolute;
+    width: 700px;
+    height: 520px;
+   
+  }
+  .staff{
+    position: relative;
+   
+    left:51.25%;
+   
+    
+  }
+  .staff:hover{
+    opacity:0.8;
+  }
+  .staff-img{
+    position: absolute;
+    width: 666px;
+    height: 520px;
+   
+    
+  }
+  .text-stu{
+    position: absolute;
+    color:rgb(0, 0, 0);
+    font-size: 50px;
+    font-weight: bold;
+    top: 200px;
+    left:200px;
+    
+  }
+  .text-stu:hover{
+    font-size: 70px;
+    top:150px;
+    left:150px;
+  }
+  .text-staff{
+    position: absolute;
+    color:rgb(0, 0, 0);
+    font-size: 50px;
+    font-weight: bold;
+    top: 200px;
+    left:200px;
+    
+  }
+  .text-staff:hover{
+    font-size: 70px;
+    top:150px;
+    left:150px;
+  }
+
+
+  footer{
+    background: rgb(178, 35, 124);
+      background: linear-gradient(
+      164deg,
+      rgba(178, 35, 124, 1) 10%,
+      rgba(130, 7, 84, 1) 52%,
+      rgba(115, 9, 75, 1) 95%
+    );
+    
+    height: 67px;
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    left:0%;
+  }
+  .foot-content{
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    padding-top: 20px;
+    
+  
+  }

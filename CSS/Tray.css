@@ -1,0 +1,29 @@
+
+.row1{
+    display: flex;
+    z-index: 10;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    top:10%;
+    width:1350px;
+    height: 200px;
+    margin-top: 30px;
+
+}
+.imgs{
+    background-color: lightblue;
+    color: black;
+    flex: 1;
+    margin-right: 10px;
+    margin-left: 10px;
+    opacity: 1;
+   
+   
+    
+}
+
+.navi{
+    z-index: 200;
+    position: fixed;
+    top:0%;
+}

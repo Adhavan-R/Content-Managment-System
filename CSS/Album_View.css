@@ -1,0 +1,88 @@
+.container1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+   margin: 50px 0px 50px 0px;
+
+}
+
+.tray1{
+    display : grid;
+    grid-template-columns: 1fr;
+    width : 400px;
+    margin: 0px 0px 50px 0px;
+    
+}
+
+.thumbnail1{
+    margin: 0 auto;
+    background-color: red;
+    height : 260px;
+    width: 225px;
+    box-shadow: 4px 4px 20px  rgba(56, 56, 56, 0.664);
+
+}
+
+.thumbnail1 img{
+    height : 260px;
+    width : 225px;
+    object-fit: cover;
+
+}
+
+.button1{
+    display: flex;
+    background-color: aqua;
+    height:40px;
+    width: 225px;
+    margin: 0 auto;
+    box-shadow: 4px 4px 20px  rgba(56, 56, 56, 0.664);
+}
+
+.button1 button{
+    height: 40px; 
+    width: 225px; 
+    margin:0px;
+    border-radius:0px;
+    background-color: rgb(134, 26, 93);
+}
+
+
+.add{
+    vertical-align: middle;
+    padding-left: 5px;
+}
+  
+.add img{
+    height: 40px;
+}
+.add p{
+    display: inline;
+    margin-left: 10px;
+    font-size: larger;
+}
+.add button{
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+}
+#add_album {
+    display: none;
+    margin: 15px 0px 0px 35px;
+}
+
+#add_album label{
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+}
+#add_album input{
+    font-size: 15px;
+    padding: 5px;
+    font-family: "Open Sans", sans-serif;
+}
+#add_album button{
+    display: block;
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    padding: 10px 15px 10px;
+    margin: 20px 0px 0px 205px;
+}

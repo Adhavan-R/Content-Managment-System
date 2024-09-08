@@ -1,0 +1,39 @@
+html {
+    height: 98%;
+  }
+body {
+  background-color: rgba(0, 0, 0, 0.452);
+  margin: 0px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#modal-box {
+  background-color: rgb(243, 219, 243);
+  width: 500px;
+  padding: 50px 50px 50px 50px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 20px 1px rgb(180, 96, 146);
+  text-align: center;
+}
+.modal-msg {
+  font-size: 25px;
+  color: rgb(0, 0, 0);
+  font-family: "Lato", sans-serif;
+  font-weight: bolder;
+  margin-bottom: 50px;
+}
+button {
+  cursor: pointer;
+  text-decoration: none;
+  background-color: #830753;
+  color: white;
+  padding: 10px 20px 10px 20px;
+  border : 0px;
+  border-radius: 4px;
+  margin: 20px;
+}
+#login{
+  display: none;
+}
